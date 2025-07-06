@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
-  "author": "",
+  "author": "kaushar",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "zod": "^3.25.74"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
